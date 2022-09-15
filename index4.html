@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function check(value) {
+    if (value % 1 == 0)
+      return true;
+    if (typeof value == "string")
+      return false;
+  }
+  let cha = prompt('Nhập 1 ký tự vào');
+  alert(check(cha));
+</script>
+</body>
+</html>

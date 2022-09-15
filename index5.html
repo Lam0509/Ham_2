@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function min(a, b, c) {
+    if (a <= b && a <= c) {
+      return 'Giá trị nhỏ nhất là ' + a;
+    } else if (b > c) {
+      return 'Giá trị nhỏ nhất là ' + c;
+    } else {
+      return 'Giá trị nhỏ nhất là ' + b;
+    }
+  }
+  let x = +prompt('Nhập giá trị 1');
+  let y = +prompt('Nhập giá trị 2');
+  let z = +prompt('Nhập giá trị 3');
+  alert(min(x , y, z));
+</script>
+</body>
+</html>
